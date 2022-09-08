@@ -14,16 +14,18 @@ There are three interfaces defined:
 
 ## Main Task
 
-The task is to implement the following requirements in a TDD manner (one commit per task):
+The task is to fork this repository, and complete the following steps. Requirements should be implemented in a TDD manner (one commit per task):
 
 1. Implement the `IFizzBuzz` interface in the `FizzBuzz` class
-   * Method `FizzBuzzifyAnInt` should return string representation of input integer, with the following substitutions:
+   * Method `FizzBuzzifyAnInt` should return string representation of input integer (i.e. `1` as an input returns `"1"`), with the following substitutions:
      * Where input is a multiple of 3, method should return "Fizz"
      * Where input is a multiple of 5, method should return "Buzz"
      * Where input is a multiple of 3 and 5 (e.g. 15), method should return "FizzBuzz"
+   * Create tests to verify behavior of all 4 scenarios
 
-2. Implement the `IFizzBuzzRange` interface in the `FizzBuzz` class.
+2. Implement the `IFizzBuzzRange` interface in the `FizzBuzz` class. (Creating tests to verify behavior)
    * The `FizzBuzzValuesForRange` should take two integers, a "start" and "end" integer, iterate over a range containing both values, and return an enumerable of FizzBuzzed strings
+   * Create tests to verify behavior
   
 3. The console app should run `FizzBuzzValuesForRange(1,100)` and write the results to the console (no XUnit test needed, just implement in console app)
 
