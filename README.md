@@ -14,7 +14,7 @@ There are three interfaces defined:
 
 ## Main Task
 
-The task is to fork this repository, and complete the following steps. Requirements should be implemented in a TDD manner (one commit per task):
+The task is to fork this repository, and complete the following steps. Requirements should be implemented in a TDD manner (one commit per task), and code should be clearly documented.
 
 1. Implement the `IFizzBuzz` interface in the `FizzBuzz` class
    * Method `FizzBuzzifyAnInt` should return string representation of input integer (i.e. `1` as an input returns `"1"`), with the following substitutions:
