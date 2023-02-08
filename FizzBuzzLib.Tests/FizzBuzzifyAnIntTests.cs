@@ -8,7 +8,12 @@ namespace FizzBuzzLib.Tests
         [Fact]
         public void FizzBuzzifyAnInt_WhenPassedAndInt_ReturnsAString()
         {
-            // test here
+            //test here
+            var FizzBuzz = new FizzBuzz();
+
+            var output = FizzBuzz.FizzBuzzifyAnInt(1);
+
+            output.Should().Be("1");
         }
     }
 }
